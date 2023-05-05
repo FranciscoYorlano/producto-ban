@@ -3,9 +3,12 @@ import "./App.css";
 function App() {
     return (
         <>
-            <div className="bg-gray-900">
-                <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            </div>
+            <p className="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                officiis officia ipsum doloribus quas saepe hic illum obcaecati,
+                porro, culpa earum perspiciatis iure repellendus. Tempore autem
+                magnam nulla tempora ad!
+            </p>
         </>
     );
 }
