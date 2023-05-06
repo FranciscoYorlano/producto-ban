@@ -16,7 +16,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
     return (
-        <>
+        <div className="tracking-wider ">
             <Header />
             <Routes>
                 <Route path="/" element={<Landing />} />
@@ -28,7 +28,7 @@ function App() {
                 <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
-        </>
+        </div>
     );
 }
 
