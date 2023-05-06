@@ -59,7 +59,7 @@ const Home = () => {
             </div>
 
             {/* SECTION ABOUT */}
-            <div className="h-[calc(100vh)]" ref={section2Ref}></div>
+            <div className="h-[calc(100vh)] bg-white" ref={section2Ref}></div>
         </div>
     );
 };

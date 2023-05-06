@@ -12,7 +12,7 @@ const Header = () => {
                 </Link>
             </div>
 
-            <div className="flex justify-self-end items-center gap-6 bg-black mt-1 mb-1 mr-4 pr-6 pl-6 pt-2 pb-2 rounded-md shadow">
+            <div className="flex justify-self-end items-center gap-6 bg-black mt-1 mb-1 mr-4 pr-6 pl-6 pt-2 pb-2 rounded-full shadow">
                 <Link
                     className="hover:text-fuchsia-600 focus:outline-none transition-colors duration-300"
                     to="/home"
@@ -33,7 +33,7 @@ const Header = () => {
                 >
                     DJ Mag
                 </Link>
-                <Link className="rounded-full hover:text-black focus:outline-none bg-fuchsia-500 transition-background-colors duration-300 pl-2 pr-2 transform hover:scale-110">
+                <Link className="rounded-full hover:text-black focus:outline-none bg-fuchsia-600 transition-background-colors duration-300 pl-2 pr-2 transform hover:scale-110">
                     Sign In
                 </Link>
             </div>
