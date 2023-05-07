@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="grid grid-cols-2 w-screen h-12 fixed top-0 z-10 ">
+        <div className="grid grid-cols-2 w-screen h-12 fixed top-0 z-10 font-medium">
             <div className="flex justify-self-start items-center ml-4 mt-1 mb-1">
                 <Link to="/">
                     <p className="text-xl">BAN Talent</p>
